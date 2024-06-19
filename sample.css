@@ -1,0 +1,188 @@
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+  }
+  
+  .outer {
+    height: 100px;
+    background-color: rgb(7, 34, 68);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inner {
+    background-color: white;
+    border: 2px solid red;
+    text-align: center;
+    width: 30%;
+  }
+  
+  #all {
+    width: 80%;
+  }
+  
+  .form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  
+  select {
+    margin-right: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  select:hover {
+    cursor: pointer;
+  }
+  
+  .box2 {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  #email {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  #btn {
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+  }
+  
+  #btn:hover {
+    cursor: pointer;
+  }
+  
+  .line {
+    border-bottom: 2px solid black;
+    margin-top: 12px;
+    width: 100%;
+  }
+  
+  .line1 {
+    border-bottom: 1px solid black;
+    width: 100%;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 5px;
+  }
+  
+  .card-content {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .card-content h3,
+  .card-content h5 {
+    margin-bottom: 10px;
+  }
+  
+  .card-content p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  a {
+    background-color: rgb(236, 84, 40);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .outer {
+      height: 80px;
+    }
+  
+    .inner {
+      width: 70%;
+    }
+  
+    .form {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .box2 {
+      margin-left: 0;
+    }
+  
+    .card {
+      width: 90%;
+    }
+  
+    .card img {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .outer {
+      height: 60px;
+    }
+  
+    .inner {
+      width: 90%;
+      border: 1px solid red;
+    }
+  
+    .form {
+      align-items: center;
+    }
+  
+    .box2 {
+      text-align: center;
+      margin-left: 0;
+    }
+  
+    .card {
+      width: 100%;
+    }
+  }
+  
